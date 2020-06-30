@@ -5,7 +5,7 @@
 &nbsp;
 
 # Introduction
-![GeniSysAI Server](https://github.com/aniruddh-1/AI-Classification/blob/0.1.0/Projects/3/Media/Images/tensorflow.png)
+![GeniSysAI Server](https://github.com/aniruddh-1/AI-Classification/blob/0.2.0/Projects/3/Media/Images/tensorflow.png)
 TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries, and community resources that lets researchers push the state-of-the-art in ML and developers easily build and deploy ML-powered applications.
 
 TensorFlow was originally developed by researchers and engineers working on the Google Brain team within Google's Machine Intelligence Research organization to conduct machine learning and deep neural networks research. The system is general enough to be applicable in a wide variety of other domains, as well.
@@ -50,7 +50,7 @@ Here are some CT-Scans of lungs:
 
 COVID19 Patient Scan:
 
-![alt text](https://github.com/aniruddh-1/AI-Classification/blob/0.1.0/Projects/3/Media/Images/covid_scan.png "CT Scan1")
+![alt text](https://github.com/aniruddh-1/AI-Classification/blob/0.2.0/Projects/3/Media/Images/covid_scan.png "CT Scan1")
 
 
 
@@ -59,7 +59,7 @@ COVID19 Patient Scan:
 
 Normal Patient Scan:
 
-![alt text](https://github.com/aniruddh-1/AI-Classification/blob/0.1.0/Projects/3/Media/Images/normal_scan.png "CT Scan2")
+![alt text](https://github.com/aniruddh-1/AI-Classification/blob/0.2.0/Projects/3/Media/Images/normal_scan.png "CT Scan2")
 
 ### Dataset Source
 - Kaggle: [SARS-CoV-2 CT-scan dataset: A large dataset of real patients CT scans for SARS-CoV-2 (COVID-19) identification](https://www.kaggle.com/plameneduardo/sarscov2-ctscan-dataset)
@@ -84,6 +84,25 @@ tf.keras.metrics.AUC(name='auc')
 These metrics will be displayed and plotted once our model is trained.  A useful tutorial while working on the metrics was the [Classification on imbalanced data](https://www.tensorflow.org/tutorials/structured_data/imbalanced_data) tutorial on Tensorflow's website.
 
 &nbsp;
+
+### Training Results
+
+When training finishes you will be shown the metrics and figures of merit. If you are using Tensorflow GPU these results will vary per train. For stable results each time you should use CPU for training.
+
+![Accuracy](Media/Images/Accuracy.png)
+_Fig 1. Accuracy_
+
+![Loss](Media/Images/Loss.png)
+_Fig 2. Loss_
+
+![AUC](Media/Images/AUC.png)
+_Fig 3. AUC_
+
+![Precision](Media/Images/Precision.png)
+_Fig 4. Precision_
+
+![Recall](Media/Images/Recall.png)
+_Fig 5. Recall_
 
 
 ## Metrics Overview for Validation Samples of [Pretrained Model](https://github.com/aniruddh-1/AI-Classification/blob/0.1.0/Projects/3/Model/Pretrained%20Model/covid19_pneumonia_detection_cnn.model.h5)
